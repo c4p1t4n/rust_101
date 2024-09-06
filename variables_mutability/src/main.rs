@@ -7,7 +7,7 @@
 // }
 fn shadowing(){
     // Shadowing is different of mut because you can change the type of the variable
-    // after aach operation with shadowing the variable continue to be immutable
+    // after each operation with shadowing the variable continue to be immutable
     println!("Shadowing");
     let x = 5;
     println!("The value of x is: {x}");
@@ -40,6 +40,7 @@ fn mutable_variable(){
 }
 fn constant(){
     // constants are different of variables because can't use the mut keyword
+    // constants need be signed
     println!("Constant");
     const THREE_HOURS_IN_SECONDS: u32 =  60 * 60 * 3;
     println!("Constant value {THREE_HOURS_IN_SECONDS}");
